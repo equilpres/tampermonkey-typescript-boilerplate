@@ -1,0 +1,40 @@
+{
+	"compilerOptions": {
+		// Paths
+		"outDir": "./build",
+		"baseUrl": "./",
+		"rootDir": "./src",
+		"paths": {
+			"#*": ["./src/*"]
+		},
+
+		// Latest features
+		"lib": ["ESNext", "DOM", "DOM.Iterable"],
+		"target": "ESNext",
+		"module": "ESNext",
+		"moduleDetection": "force",
+		"jsx": "react-jsx",
+		"allowJs": true,
+		"checkJs": true,
+		"resolveJsonModule": true,
+
+		// Bundler mode
+		"moduleResolution": "Bundler",
+		"allowImportingTsExtensions": false, // Bun coming
+		"verbatimModuleSyntax": true,
+		"noEmit": false, // Bun coming
+
+		// Best practices
+		"strict": true,
+		"skipLibCheck": true,
+		"noFallthroughCasesInSwitch": true,
+
+		// Some stricter checks
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"noImplicitOverride": true,
+		"exactOptionalPropertyTypes": true
+	},
+	"include": ["./**/*.ts", "./typings.d.ts"],
+	"exclude": ["build", "tailwind.config.ts"]
+}
