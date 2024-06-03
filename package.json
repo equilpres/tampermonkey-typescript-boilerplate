@@ -1,6 +1,6 @@
 {
 	"name": "tampermonkey-typescript-boilerplate",
-	"description": "Minimalistic boilerplate for Tampermonkey userscripts in TypeScript",
+	"description": "Boilerplate for Tampermonkey userscripts in TypeScript",
 	"version": "0.0.0",
 	"author": {
 		"name": "Слава Соколов",

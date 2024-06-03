@@ -1,8 +1,8 @@
 ### Tampermonkey TypeScript Boilerplate
 
-Minimalistic boilerplate for Tampermonkey userscripts in TypeScript.
+Boilerplate for Tampermonkey userscripts in TypeScript
 
-> 🌟 Svelte is included here as a small bonus. If you don't need it, delete all files in `src` folder except `app.ts` and `meta.*`.
+> 🌟 Svelte is included here as a small bonus. If you don't need it, delete all files in `src` folder except `app.ts` and `meta.*`
 
 #### Prerequisites
 
@@ -70,4 +70,4 @@ Minimalistic boilerplate for Tampermonkey userscripts in TypeScript.
 
 #### License
 
-This project is under the MIT License. See [LICENSE](LICENSE) for details.
+[MIT](LICENSE)

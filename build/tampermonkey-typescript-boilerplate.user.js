@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         tampermonkey-typescript-boilerplate
-// @description  Minimalistic boilerplate for Tampermonkey userscripts in TypeScript
+// @description  Boilerplate for Tampermonkey userscripts in TypeScript
 // @version      0.0.0
 // @author       Слава Соколов (equilpres)
 // @iconURL      https://www.google.com/s2/favicons?sz=128&domain=zelenka.guru
