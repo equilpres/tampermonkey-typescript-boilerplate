@@ -17,7 +17,7 @@
 	"license": "MIT",
 	"scripts": {
 		"build": "pnpm lint && cross-env NODE_NO_WARNINGS=1 rollup --config",
-		"build::watch": "cross-env NODE_NO_WARNINGS=1 rollup --config --watch",
+		"build:watch": "cross-env NODE_NO_WARNINGS=1 rollup --config --watch",
 		"svelte-check": "svelte-check",
 		"lint": "svelte-check && prettier --check --cache . && eslint .",
 		"fmt": "prettier --write --cache .",

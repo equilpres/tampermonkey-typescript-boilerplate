@@ -38,10 +38,10 @@ Boilerplate for Tampermonkey userscripts in TypeScript
      pnpm build
      ```
 
-- `build::watch`: Build userscript and watch for changes.
+- `build:watch`: Build userscript and watch for changes.
 
      ```bash
-     pnpm build::watch
+     pnpm build:watch
      ```
 
 - `svelte-check`: Check Svelte files.
