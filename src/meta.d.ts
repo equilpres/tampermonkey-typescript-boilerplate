@@ -36,7 +36,7 @@ export interface Meta {
 	icon64URL?: string | undefined;
 
 	match: Array<string>;
-	grant?: Array<Grant> | 'none' | undefined;
+	grant?: Array<Grant | 'none'> | undefined;
 
 	'run-at'?: RunAt | undefined;
 	noframes?: boolean | undefined;

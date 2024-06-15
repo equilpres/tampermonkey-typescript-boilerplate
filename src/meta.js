@@ -11,7 +11,7 @@ export const meta = {
 	iconURL: 'https://www.google.com/s2/favicons?sz=128&domain=zelenka.guru',
 
 	match: ['*://example.com/*'],
-	grant: 'none',
+	grant: ['none'],
 
 	'run-at': 'document-end',
 	noframes: true,

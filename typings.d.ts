@@ -6,7 +6,4 @@ declare namespace svelteHTML {
 	interface HTMLAttributes {}
 }
 
-declare const Meta: Pick<
-	Readonly<import('./src/meta.d.ts').Meta>,
-	'name' | 'description' | 'version' | 'author' | 'iconURL' | 'grant' | 'run-at' | 'updateURL' | 'downloadURL' | 'homepageURL' | 'supportURL'
->;
+declare const Meta: Exclude<Readonly<import('./src/meta.d.ts').Meta>, 'match' | 'grant' | 'noframes' | 'webRequest'>;
