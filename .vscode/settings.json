@@ -26,6 +26,7 @@
 		"prefixer",
 		"tailwindcss",
 		"tampermonkey",
+		"tseslint",
 		"userscript",
 		"userscripts",
 		"xmlhttp"
