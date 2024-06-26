@@ -1,5 +1,5 @@
 declare namespace NodeJS {
 	interface ProcessEnv {
-		EXAMPLE: string;
+		PUBLIC_EXAMPLE: string;
 	}
 }
