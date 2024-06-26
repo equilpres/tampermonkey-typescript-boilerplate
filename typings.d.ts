@@ -8,10 +8,4 @@ declare namespace svelteHTML {
 	}
 }
 
-declare namespace NodeJS {
-	interface ProcessEnv {
-		EXAMPLE: string;
-	}
-}
-
 declare const Meta: Exclude<Readonly<import('./src/meta.d.ts').Meta>, 'match' | 'grant' | 'noframes' | 'webRequest'>;

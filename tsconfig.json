@@ -35,6 +35,6 @@
 		"noImplicitOverride": true,
 		"exactOptionalPropertyTypes": true
 	},
-	"include": ["./**/*.ts", "./typings.d.ts"],
+	"include": ["./**/*.ts", "./typings.d.ts", "./env.d.ts"],
 	"exclude": ["build", "tailwind.config.ts"]
 }
