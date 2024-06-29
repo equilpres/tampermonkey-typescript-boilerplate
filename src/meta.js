@@ -8,7 +8,7 @@ export const meta = {
 	version: '%package.version%',
 	author: '%package.author%',
 
-	iconURL: 'https://www.google.com/s2/favicons?sz=128&domain=zelenka.guru',
+	iconURL: 'https://lolz.live/styles/brand/download/avatars/three_avatar.svg',
 
 	match: ['*://example.com/*'],
 	grant: ['none'],
