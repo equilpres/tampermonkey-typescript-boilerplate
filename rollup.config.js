@@ -97,14 +97,12 @@ export default {
 function bannerContent() {
 	const contents = [];
 
-	const defaultSpaces = 13;
-
 	for (const [key, value] of Object.entries(adaptedMeta)) {
 		if (!value) {
 			continue;
 		}
 
-		const spaces = ' '.repeat(defaultSpaces - key.length);
+		const spaces = ' '.repeat(13 - key.length);
 
 		let content = '';
 
