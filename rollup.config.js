@@ -2,12 +2,12 @@ import commonjs from '@rollup/plugin-commonjs';
 import resolve, { DEFAULTS as resolveDefaults } from '@rollup/plugin-node-resolve';
 import replace from '@rollup/plugin-replace';
 import terser from '@rollup/plugin-terser';
-import typescript from '@rollup/plugin-typescript';
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 import { obfuscator } from 'rollup-obfuscator';
 import license from 'rollup-plugin-license';
 import postcss from 'rollup-plugin-postcss';
 import svelte from 'rollup-plugin-svelte';
+import typescript from 'rollup-plugin-typescript2';
 
 import nextEnv from '@next/env';
 import { stripIndents } from 'common-tags';

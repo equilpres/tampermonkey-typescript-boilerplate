@@ -2,7 +2,6 @@
 	import { onMount } from 'svelte';
 
 	import Example from '#lib/components/Example.svelte';
-
 	import { exampleStore } from '#lib/stores/example';
 
 	onMount(() => {
