@@ -119,9 +119,7 @@ function bannerContent() {
 				continue;
 			}
 		} else if (typeof value === 'boolean') {
-			if (value) {
-				contents.push(`// @${key}`);
-			}
+			contents.push(`// @${key}`);
 
 			continue;
 		}
@@ -134,7 +132,8 @@ function bannerContent() {
 		${contents.join('\r\n')}
 		// ==/UserScript==
 
-		/* eslint-disable */`;
+		/* eslint-disable */
+	`;
 }
 
 function obfuscatorOptions() {
