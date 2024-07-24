@@ -1,3 +1,5 @@
+// @ts-check
+
 export const minify = true;
 export const obfuscate = false;
 

@@ -30,6 +30,12 @@ export default [
 		},
 	},
 	{
+		files: ['**/*.{ts,svelte}'],
+		rules: {
+			'@typescript-eslint/explicit-function-return-type': 'error',
+		},
+	},
+	{
 		ignores: ['build', 'postcss.config.cjs'],
 	},
 ];
